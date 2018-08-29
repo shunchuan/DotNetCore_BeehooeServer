@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.2.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetCore_BeehooeServer.API\DotNetCore_BeehooeServer.API.csproj" />
+    <ProjectReference Include="..\DotNetCore_BeehooeServer.Business\DotNetCore_BeehooeServer.Business.csproj" />
+    <ProjectReference Include="..\DotNetCore_BeehooeServer.Domain\DotNetCore_BeehooeServer.Domain.csproj" />
+    <ProjectReference Include="..\DotNetCore_BeehooeServer.Infrastructure\DotNetCore_BeehooeServer.Infrastructure.csproj" />
+    <ProjectReference Include="..\DotNetCore_BeehooeServer.Model\DotNetCore_BeehooeServer.Model.csproj" />
+  </ItemGroup>
+
+</Project>

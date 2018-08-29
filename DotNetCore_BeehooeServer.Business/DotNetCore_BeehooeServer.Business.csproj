@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetCore_BeehooeServer.Domain\DotNetCore_BeehooeServer.Domain.csproj" />
+    <ProjectReference Include="..\DotNetCore_BeehooeServer.Infrastructure\DotNetCore_BeehooeServer.Infrastructure.csproj" />
+    <ProjectReference Include="..\DotNetCore_BeehooeServer.Model\DotNetCore_BeehooeServer.Model.csproj" />
+  </ItemGroup>
+
+</Project>
